@@ -18,9 +18,9 @@
   <!-- Dependencies -->
   <PropertyGroup>
     <!-- Versions used by several individual references below -->
-    <MicrosoftCodeAnalysisPackagesVersion>4.1.0</MicrosoftCodeAnalysisPackagesVersion>
-    <MicrosoftVisualStudioShellPackagesVersion>17.3.32809.331</MicrosoftVisualStudioShellPackagesVersion>
-    <MicrosoftVisualStudioEditorPackagesVersion>17.3.198</MicrosoftVisualStudioEditorPackagesVersion>
+    <MicrosoftCodeAnalysisPackagesVersion>4.4.0</MicrosoftCodeAnalysisPackagesVersion>
+    <MicrosoftVisualStudioShellPackagesVersion>17.4.33103.184</MicrosoftVisualStudioShellPackagesVersion>
+    <MicrosoftVisualStudioEditorPackagesVersion>17.4.255</MicrosoftVisualStudioEditorPackagesVersion>
     <MicrosoftVisualStudioExtensibilityTestingVersion>0.1.135-beta</MicrosoftVisualStudioExtensibilityTestingVersion>
     <!-- Roslyn -->
     <MicrosoftCodeAnalysisAnalyzersVersion>3.3.3</MicrosoftCodeAnalysisAnalyzersVersion>
@@ -34,8 +34,8 @@
     <!-- VS SDK -->
     <EnvDTE80Version>$(MicrosoftVisualStudioShellPackagesVersion)</EnvDTE80Version>
     <EnvDTEVersion>$(MicrosoftVisualStudioShellPackagesVersion)</EnvDTEVersion>
-    <MicrosoftServiceHubFrameworkVersion>4.0.2048</MicrosoftServiceHubFrameworkVersion>
-    <MicrosoftVisualStudioCompositionVersion>17.0.46</MicrosoftVisualStudioCompositionVersion>
+    <MicrosoftServiceHubFrameworkVersion>4.1.112</MicrosoftServiceHubFrameworkVersion>
+    <MicrosoftVisualStudioCompositionVersion>17.2.41</MicrosoftVisualStudioCompositionVersion>
     <MicrosoftVisualStudioComponentModelHostVersion>$(MicrosoftVisualStudioEditorPackagesVersion)</MicrosoftVisualStudioComponentModelHostVersion>
     <MicrosoftVisualStudioCoreUtilityVersion>$(MicrosoftVisualStudioEditorPackagesVersion)</MicrosoftVisualStudioCoreUtilityVersion>
     <MicrosoftVisualStudioEditorVersion>$(MicrosoftVisualStudioEditorPackagesVersion)</MicrosoftVisualStudioEditorVersion>
@@ -52,11 +52,11 @@
     <MicrosoftVisualStudioTextLogicVersion>$(MicrosoftVisualStudioEditorPackagesVersion)</MicrosoftVisualStudioTextLogicVersion>
     <MicrosoftVisualStudioTextManagerInterop80Version>$(MicrosoftVisualStudioShellPackagesVersion)</MicrosoftVisualStudioTextManagerInterop80Version>
     <MicrosoftVisualStudioTextUIWpfVersion>$(MicrosoftVisualStudioEditorPackagesVersion)</MicrosoftVisualStudioTextUIWpfVersion>
-    <MicrosoftVisualStudioThreadingVersion>17.3.44</MicrosoftVisualStudioThreadingVersion>
+    <MicrosoftVisualStudioThreadingVersion>17.4.27</MicrosoftVisualStudioThreadingVersion>
     <MicrosoftVisualStudioUtilitiesInternalVersion>16.3.36</MicrosoftVisualStudioUtilitiesInternalVersion>
     <MicrosoftVisualStudioValidationVersion>17.0.64</MicrosoftVisualStudioValidationVersion>
     <NuGetSolutionRestoreManagerInteropVersion>5.6.0</NuGetSolutionRestoreManagerInteropVersion>
-    <StreamJsonRpcVersion>2.12.27</StreamJsonRpcVersion>
+    <StreamJsonRpcVersion>2.13.33</StreamJsonRpcVersion>
     <VSLangProjVersion>$(MicrosoftVisualStudioShellPackagesVersion)</VSLangProjVersion>
     <MicrosoftVisualStudioTemplateWizardInterfaceVersion>17.0.0-preview-1-30928-1111</MicrosoftVisualStudioTemplateWizardInterfaceVersion>
     <MicrosoftVSSDKBuildToolsVersion>17.0.4207-preview4</MicrosoftVSSDKBuildToolsVersion>
@@ -71,10 +71,11 @@
     <SystemNetHttpVersion>4.3.4</SystemNetHttpVersion>
     <!-- Testing -->
     <MicrosoftCodeAnalysis2PrimaryTestVersion>2.6.1</MicrosoftCodeAnalysis2PrimaryTestVersion>
-    <MicrosoftCodeAnalysis3PrimaryTestVersion>3.9.0</MicrosoftCodeAnalysis3PrimaryTestVersion>
+    <MicrosoftCodeAnalysis3PrimaryTestVersion>4.4.0</MicrosoftCodeAnalysis3PrimaryTestVersion>
     <MicrosoftCodeAnalysisTestingVersion>1.0.1-beta1.20374.2</MicrosoftCodeAnalysisTestingVersion>
+    <xunitVersion>2.4.2</xunitVersion>
     <xunitassertVersion>$(xunitVersion)</xunitassertVersion>
-    <XunitCombinatorialVersion>1.2.7</XunitCombinatorialVersion>
+    <XunitCombinatorialVersion>1.4.1</XunitCombinatorialVersion>
     <MicrosoftVisualStudioExtensibilityTestingSourceGeneratorVersion>$(MicrosoftVisualStudioExtensibilityTestingVersion)</MicrosoftVisualStudioExtensibilityTestingSourceGeneratorVersion>
     <MicrosoftVisualStudioExtensibilityTestingXunitVersion>$(MicrosoftVisualStudioExtensibilityTestingVersion)</MicrosoftVisualStudioExtensibilityTestingXunitVersion>
     <!-- Needed to override the transitive 9.0.1 version brought in by the 16.1.1 Microsoft.NET.Test.Sdk -->
